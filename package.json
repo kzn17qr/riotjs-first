@@ -1,0 +1,20 @@
+{
+  "name": "riotjs-first",
+  "version": "1.0.0",
+  "description": "This is a riotjs project for practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --progress"
+  },
+  "author": "kazny",
+  "license": "ISC",
+  "devDependencies": {
+    "buble": "^0.15.2",
+    "buble-loader": "^0.4.1",
+    "riot": "^3.4.0",
+    "riot-route": "^3.1.1",
+    "riotjs-loader": "^4.0.0",
+    "webpack": "^2.3.2"
+  }
+}
