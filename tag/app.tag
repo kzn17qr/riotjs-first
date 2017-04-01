@@ -1,7 +1,12 @@
+import './input-text'
+
 <app>
-    <h2>{ opts.title }</h2>
+    <h3>{ opts.title }</h3>
     <button onclick="{ show_count }">click</button>
     <div>{ this.disp() }</div>
+    <p/>
+    <input-text name="件名" required="true"></input-text>
+    <input-text name="件名(カナ)"></input-text>
 
     <script>
         this.count = 0
